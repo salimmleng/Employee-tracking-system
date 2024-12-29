@@ -55,7 +55,7 @@ class EmployeeManager:
         for emp_id,details in self.employees.items():
             print(f"\nID: {emp_id}")
             for key,value in details.items():
-                print(f"{key.capitalize()}, {value}")
+                print(f"{key.capitalize()} : {value}")
 
     def update_employee(self):
         emp_id = input("Which Employee ID you want to update: ")
@@ -75,7 +75,7 @@ class EmployeeManager:
 
          # Update the employee record
         self.employees[emp_id] = updated_details
-        print("Employee updated successfully.")
+        print(f"Employee Id {emp_id} updated successfully.")
         self.save_employee_data()
 
 
@@ -85,7 +85,7 @@ class EmployeeManager:
             print("Employee ID not found.")
             return
         del self.employees[emp_id]
-        print("Employee deleted successfully.")
+        print(f"Employee ID {emp_id} deleted successfully.")
         self.save_employee_data()
 
     

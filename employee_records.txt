@@ -1,2 +1,2 @@
-1,salimkhan,27,HR,boss,30000
-2,tamim,9,sales,SR,20000
+1,salim,28,Sales,manager,35000
+2,sumon,24,IT,Python developer,20000
