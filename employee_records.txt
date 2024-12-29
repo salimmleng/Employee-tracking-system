@@ -1,0 +1,2 @@
+1,salimkhan,27,HR,boss,30000
+2,tamim,9,sales,SR,20000
