@@ -35,34 +35,3 @@ if __name__ == "__main__":
     main()
 
 
-
-
-
-
-
-
-
-
-# while True:
-#     print("Welcome to Track Employee Information!!!")
-#     print("1. Add new employee")
-#     print("2. Update employee information")
-#     print("3. Update employee information")
-#     print("4. Delete employee record")
-#     print("5. View all employees")
-#     print("6. View all employees")
-#     print("7. Search employee using name or designation")
-
-#     choice = int(input("Enter your choice: "))
-
-#     if choice == 1:
-#         name = input("Enter your name: ")
-#         age = input("Enter your age: ")
-#         designation = input("Enter your designation: ")
-
-#         print(name,age,designation)
-
-#     else:
-#         print("Thanks")
-#         break
-
